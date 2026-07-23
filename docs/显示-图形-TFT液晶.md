@@ -1,3 +1,11 @@
+---
+title: TFT液晶
+description: DriverKit · 显示分类下的 TFT液晶 模块文档：工作原理、常见型号与参考价格、硬件接线、驱动代码、调试方法与 FAQ。
+keywords: TFT液晶,显示,图形,DriverKit,驱动派,嵌入式,硬件驱动,选型,接线,原理,代码示例,调试
+category: 显示
+field: 图形
+module: TFT液晶
+---
 # TFT 液晶
 
 

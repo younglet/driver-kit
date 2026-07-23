@@ -5,8 +5,11 @@
   "description": "DriverKit · 驱动派 — 嵌入式硬件驱动实战文档库",
   "scripts": {
     "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:build": "node scripts/generate-sitemap.mjs && vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "sitemap": "node scripts/generate-sitemap.mjs",
+    "seo:inject": "node scripts/inject-module-frontmatter.mjs",
+    "seo:ping": "node scripts/ping-search-engines.mjs"
   },
   "devDependencies": {
     "vitepress": "^1.6.3"

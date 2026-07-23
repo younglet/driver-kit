@@ -1,3 +1,11 @@
+---
+title: 蓝牙BLE
+description: DriverKit · 通信分类下的 蓝牙BLE 模块文档：工作原理、常见型号与参考价格、硬件接线、驱动代码、调试方法与 FAQ。
+keywords: 蓝牙BLE,通信,无线,DriverKit,驱动派,嵌入式,硬件驱动,选型,接线,原理,代码示例,调试
+category: 通信
+field: 无线
+module: 蓝牙BLE
+---
 # 蓝牙 BLE
 
 

@@ -1,3 +1,11 @@
+---
+title: 六轴IMU
+description: DriverKit · 传感器分类下的 六轴IMU 模块文档：工作原理、常见型号与参考价格、硬件接线、驱动代码、调试方法与 FAQ。
+keywords: 六轴IMU,传感器,位姿,DriverKit,驱动派,嵌入式,硬件驱动,选型,接线,原理,代码示例,调试
+category: 传感器
+field: 位姿
+module: 六轴IMU
+---
 # 六轴 IMU
 
 

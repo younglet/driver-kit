@@ -1,3 +1,11 @@
+---
+title: I2C
+description: DriverKit · 通信分类下的 I2C 模块文档：工作原理、常见型号与参考价格、硬件接线、驱动代码、调试方法与 FAQ。
+keywords: I2C,通信,总线,DriverKit,驱动派,嵌入式,硬件驱动,选型,接线,原理,代码示例,调试,I2C,SDA,SCL,TWI,上拉电阻,400kHz
+category: 通信
+field: 总线
+module: I2C
+---
 # I2C（IIC）
 
 

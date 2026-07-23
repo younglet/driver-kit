@@ -1,3 +1,11 @@
+---
+title: OLED
+description: DriverKit · 显示分类下的 OLED 模块文档：工作原理、常见型号与参考价格、硬件接线、驱动代码、调试方法与 FAQ。
+keywords: OLED,显示,图形,DriverKit,驱动派,嵌入式,硬件驱动,选型,接线,原理,代码示例,调试,SSD1306,SH1106,0.96寸,I2C屏
+category: 显示
+field: 图形
+module: OLED
+---
 # OLED 显示
 
 

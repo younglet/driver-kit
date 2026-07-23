@@ -1,3 +1,11 @@
+---
+title: LoRa
+description: DriverKit · 通信分类下的 LoRa 模块文档：工作原理、常见型号与参考价格、硬件接线、驱动代码、调试方法与 FAQ。
+keywords: LoRa,通信,无线,DriverKit,驱动派,嵌入式,硬件驱动,选型,接线,原理,代码示例,调试,LoRa,SX1278,SX1262,扩频通信
+category: 通信
+field: 无线
+module: LoRa
+---
 # LoRa
 
 

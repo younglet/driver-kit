@@ -1,3 +1,11 @@
+---
+title: Modbus
+description: DriverKit · 通信分类下的 Modbus 模块文档：工作原理、常见型号与参考价格、硬件接线、驱动代码、调试方法与 FAQ。
+keywords: Modbus,通信,协议,DriverKit,驱动派,嵌入式,硬件驱动,选型,接线,原理,代码示例,调试,Modbus RTU,Modbus TCP,功能码
+category: 通信
+field: 协议
+module: Modbus
+---
 # Modbus
 
 

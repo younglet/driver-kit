@@ -1,0 +1,44 @@
+# ════════════════════════════════════════════════════════════════════
+# DriverKit · 驱动派 — robots.txt
+#
+# 部署到 https://younglet.github.io/driver-kit/
+# 允许主流爬虫（Google / Bing / 百度 / 搜狗 / 神马）全站抓取，
+# 仅屏蔽 .vitepress/ 内部构建产物和 node_modules。
+# ════════════════════════════════════════════════════════════════════
+
+User-agent: *
+Allow: /
+Disallow: /.vitepress/
+Disallow: /node_modules/
+
+# ─── 单独为百度爬虫声明规则（百度对 User-Agent 匹配较严格） ─────
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Baiduspider-image
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Sogou Pic Spider
+Allow: /
+
+User-agent: Sogou web spider
+Allow: /
+
+User-agent: 360Spider
+Allow: /
+
+User-agent: YisouSpider
+Allow: /
+
+# ─── 站点地图位置（两个搜索引擎的标准字段） ──────────────────────
+Sitemap: https://younglet.github.io/driver-kit/sitemap.xml
+Sitemap: https://younglet.github.io/driver-kit/sitemap.xml.gz
+
+# ─── Crawl-delay（百度/搜狗请求较频繁时建议 1~10 秒） ─────────────
+Crawl-delay: 1

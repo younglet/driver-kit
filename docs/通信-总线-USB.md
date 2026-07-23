@@ -1,3 +1,11 @@
+---
+title: USB
+description: DriverKit · 通信分类下的 USB 模块文档：工作原理、常见型号与参考价格、硬件接线、驱动代码、调试方法与 FAQ。
+keywords: USB,通信,总线,DriverKit,驱动派,嵌入式,硬件驱动,选型,接线,原理,代码示例,调试,USB,USB CDC,USB HID,Type-C
+category: 通信
+field: 总线
+module: USB
+---
 # USB
 
 

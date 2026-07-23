@@ -1,6 +1,9 @@
 ---
 layout: home
-title: DriverKit · 驱动派
+title: DriverKit · 驱动派 — 嵌入式硬件驱动实战文档库
+titleTemplate: DriverKit · 驱动派
+description: DriverKit · 驱动派 — 嵌入式硬件驱动实战文档库。53 个常用模块的原理、选型、接线、驱动和调试速查手册，覆盖传感器、执行器、总线协议、无线通信、显示、电源等。
+keywords: DriverKit,驱动派,嵌入式,硬件,驱动,传感器,执行器,I2C,SPI,UART,LoRa,IMU,陀螺仪,加速度计,OLED,机器人,无人机,IoT,STM32,Arduino,ESP32,选型,接线,原理,代码示例,FAQ,数据手册
 
 hero:
   name: DriverKit

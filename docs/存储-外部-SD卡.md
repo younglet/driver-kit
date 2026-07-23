@@ -1,3 +1,11 @@
+---
+title: SD卡
+description: DriverKit · 存储分类下的 SD卡 模块文档：工作原理、常见型号与参考价格、硬件接线、驱动代码、调试方法与 FAQ。
+keywords: SD卡,存储,外部,DriverKit,驱动派,嵌入式,硬件驱动,选型,接线,原理,代码示例,调试
+category: 存储
+field: 外部
+module: SD卡
+---
 # SD 卡
 
 

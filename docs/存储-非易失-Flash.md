@@ -1,3 +1,11 @@
+---
+title: Flash
+description: DriverKit · 存储分类下的 Flash 模块文档：工作原理、常见型号与参考价格、硬件接线、驱动代码、调试方法与 FAQ。
+keywords: Flash,存储,非易失,DriverKit,驱动派,嵌入式,硬件驱动,选型,接线,原理,代码示例,调试,W25Q64,SPI Flash,Nor Flash
+category: 存储
+field: 非易失
+module: Flash
+---
 # Flash 存储器
 
 

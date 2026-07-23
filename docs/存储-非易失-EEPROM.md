@@ -1,3 +1,11 @@
+---
+title: EEPROM
+description: DriverKit · 存储分类下的 EEPROM 模块文档：工作原理、常见型号与参考价格、硬件接线、驱动代码、调试方法与 FAQ。
+keywords: EEPROM,存储,非易失,DriverKit,驱动派,嵌入式,硬件驱动,选型,接线,原理,代码示例,调试,AT24C256,EEPROM,I2C存储
+category: 存储
+field: 非易失
+module: EEPROM
+---
 # EEPROM
 
 

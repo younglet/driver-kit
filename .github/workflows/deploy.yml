@@ -43,6 +43,15 @@ jobs:
         with:
           path: docs/.vitepress/dist
 
+      # ─── 部署后上报搜索引擎（可选；需在 Settings → Secrets 配置） ──
+      - name: Ping search engines (Bing IndexNow / Baidu)
+        if: success()
+        env:
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+          BAIDU_PUSH_TOKEN: ${{ secrets.BAIDU_PUSH_TOKEN }}
+          BAIDU_SITE: ${{ secrets.BAIDU_SITE }}
+        run: node scripts/ping-search-engines.mjs || echo "⚠ 推送脚本报错，但不影响部署"
+
   deploy:
     name: Deploy
     needs: build

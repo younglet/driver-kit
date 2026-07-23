@@ -1,3 +1,11 @@
+---
+title: RTC
+description: DriverKit · 时钟分类下的 RTC 模块文档：工作原理、常见型号与参考价格、硬件接线、驱动代码、调试方法与 FAQ。
+keywords: RTC,时钟,实时时钟,DriverKit,驱动派,嵌入式,硬件驱动,选型,接线,原理,代码示例,调试,DS1307,DS3231,RX8025,PCF8563
+category: 时钟
+field: 实时时钟
+module: RTC
+---
 # RTC（实时时钟）
 
 
