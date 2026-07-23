@@ -1,386 +1,770 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://younglet.github.io/driver-kit/en/index</loc>
+    <lastmod>2026-07-23T06:37:17.713Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/传感器</loc>
+    <lastmod>2026-07-23T06:55:12.238Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/传感器-位姿-三轴加速度计</loc>
+    <lastmod>2026-07-23T07:06:34.287Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/传感器-位姿-三轴陀螺仪</loc>
+    <lastmod>2026-07-23T07:06:34.287Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/传感器-位姿-九轴IMU</loc>
+    <lastmod>2026-07-23T07:06:34.288Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/传感器-位姿-六轴IMU</loc>
+    <lastmod>2026-07-23T07:06:34.288Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/传感器-位姿-磁力计</loc>
+    <lastmod>2026-07-23T07:06:34.288Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/传感器-位姿-编码器</loc>
+    <lastmod>2026-07-23T07:06:34.289Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/传感器-接近-电容触摸</loc>
+    <lastmod>2026-07-23T07:07:04.679Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/传感器-接近-红外避障</loc>
+    <lastmod>2026-07-23T07:07:04.679Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/传感器-测距-激光测距</loc>
+    <lastmod>2026-07-23T07:06:34.290Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/传感器-测距-红外测距</loc>
+    <lastmod>2026-07-23T07:07:04.680Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/传感器-测距-超声波</loc>
+    <lastmod>2026-07-23T07:06:34.291Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/传感器-环境-光照</loc>
+    <lastmod>2026-07-23T07:07:04.680Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/传感器-环境-气体</loc>
+    <lastmod>2026-07-23T07:06:34.292Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/传感器-环境-气压</loc>
+    <lastmod>2026-07-23T07:06:34.292Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/传感器-环境-温湿度</loc>
+    <lastmod>2026-07-23T07:06:34.293Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/传感器-视觉-摄像头</loc>
+    <lastmod>2026-07-23T07:06:34.293Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/传感器-视觉-颜色</loc>
+    <lastmod>2026-07-23T07:06:34.293Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/分类总览</loc>
+    <lastmod>2026-07-23T06:55:12.239Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/存储</loc>
+    <lastmod>2026-07-23T06:55:12.240Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/存储-外部-SD卡</loc>
+    <lastmod>2026-07-23T07:06:34.294Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/存储-非易失-EEPROM</loc>
+    <lastmod>2026-07-23T07:06:34.294Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/存储-非易失-Flash</loc>
+    <lastmod>2026-07-23T07:06:34.294Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/执行器</loc>
+    <lastmod>2026-07-23T06:55:12.243Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/执行器-光源-LED</loc>
+    <lastmod>2026-07-23T07:07:04.683Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/执行器-声光-蜂鸣器</loc>
+    <lastmod>2026-07-23T07:07:04.684Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/执行器-开关-继电器</loc>
+    <lastmod>2026-07-23T07:06:34.296Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/执行器-流体-水泵</loc>
+    <lastmod>2026-07-23T07:06:34.296Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/执行器-流体-电磁阀</loc>
+    <lastmod>2026-07-23T07:06:34.297Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/执行器-运动-伺服电机</loc>
+    <lastmod>2026-07-23T07:06:34.298Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/执行器-运动-无刷电机</loc>
+    <lastmod>2026-07-23T07:06:34.298Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/执行器-运动-步进电机</loc>
+    <lastmod>2026-07-23T07:06:34.298Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/执行器-运动-电机驱动器</loc>
+    <lastmod>2026-07-23T07:06:34.299Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/执行器-运动-直流电机</loc>
+    <lastmod>2026-07-23T07:06:34.299Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/执行器-运动-舵机</loc>
+    <lastmod>2026-07-23T07:06:34.299Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/时钟</loc>
+    <lastmod>2026-07-23T06:55:12.244Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/时钟-实时时钟-RTC</loc>
+    <lastmod>2026-07-23T07:06:34.300Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/显示</loc>
+    <lastmod>2026-07-23T06:55:12.245Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/显示-图形-OLED</loc>
+    <lastmod>2026-07-23T07:06:34.300Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/显示-图形-TFT液晶</loc>
+    <lastmod>2026-07-23T07:06:34.300Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/显示-图形-电子纸</loc>
+    <lastmod>2026-07-23T07:06:34.301Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/电源</loc>
+    <lastmod>2026-07-23T06:55:12.246Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/电源-充电-锂电充电器</loc>
+    <lastmod>2026-07-23T07:07:04.685Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/电源-监测-电压</loc>
+    <lastmod>2026-07-23T07:07:04.686Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/电源-监测-电流</loc>
+    <lastmod>2026-07-23T07:06:34.303Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/编写规范</loc>
+    <lastmod>2026-07-23T07:07:47.104Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/输入</loc>
+    <lastmod>2026-07-23T06:55:12.247Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/输入-人机-按键</loc>
+    <lastmod>2026-07-23T07:07:04.687Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/输入-人机-摇杆</loc>
+    <lastmod>2026-07-23T07:06:34.304Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/输入-人机-旋转编码器</loc>
+    <lastmod>2026-07-23T07:06:34.305Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/通信</loc>
+    <lastmod>2026-07-23T06:55:12.250Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/通信-协议-Modbus</loc>
+    <lastmod>2026-07-23T07:06:34.305Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/通信-总线-CAN</loc>
+    <lastmod>2026-07-23T07:07:32.446Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/通信-总线-GPIO</loc>
+    <lastmod>2026-07-23T07:07:04.688Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/通信-总线-I2C</loc>
+    <lastmod>2026-07-23T07:06:34.306Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/通信-总线-RS485</loc>
+    <lastmod>2026-07-23T07:06:34.306Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/通信-总线-SPI</loc>
+    <lastmod>2026-07-23T07:06:34.307Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/通信-总线-UART</loc>
+    <lastmod>2026-07-23T07:06:34.307Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/通信-总线-USB</loc>
+    <lastmod>2026-07-23T07:07:32.447Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/通信-无线-GNSS</loc>
+    <lastmod>2026-07-23T07:06:34.308Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/通信-无线-LoRa</loc>
+    <lastmod>2026-07-23T07:06:34.308Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/通信-无线-WiFi</loc>
+    <lastmod>2026-07-23T07:06:34.309Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://younglet.github.io/driver-kit/en/通信-无线-蓝牙BLE</loc>
+    <lastmod>2026-07-23T07:07:32.447Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://younglet.github.io/driver-kit/index</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/传感器</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/传感器-位姿-三轴加速度计</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/传感器-位姿-三轴陀螺仪</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/传感器-位姿-九轴IMU</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/传感器-位姿-六轴IMU</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/传感器-位姿-磁力计</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/传感器-位姿-编码器</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/传感器-接近-电容触摸</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/传感器-接近-红外避障</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/传感器-测距-激光测距</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/传感器-测距-红外测距</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/传感器-测距-超声波</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/传感器-环境-光照</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/传感器-环境-气体</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/传感器-环境-气压</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/传感器-环境-温湿度</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/传感器-视觉-摄像头</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/传感器-视觉-颜色</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/分类总览</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/存储</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/存储-外部-SD卡</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/存储-非易失-EEPROM</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/存储-非易失-Flash</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/执行器</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/执行器-光源-LED</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/执行器-声光-蜂鸣器</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/执行器-开关-继电器</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/执行器-流体-水泵</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/执行器-流体-电磁阀</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/执行器-运动-伺服电机</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/执行器-运动-无刷电机</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/执行器-运动-步进电机</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/执行器-运动-电机驱动器</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/执行器-运动-直流电机</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/执行器-运动-舵机</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/时钟</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/时钟-实时时钟-RTC</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/显示</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/显示-图形-OLED</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/显示-图形-TFT液晶</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/显示-图形-电子纸</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/电源</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/电源-充电-锂电充电器</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/电源-监测-电压</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/电源-监测-电流</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/编写规范</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/输入</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/输入-人机-按键</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/输入-人机-摇杆</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/输入-人机-旋转编码器</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/通信</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/通信-协议-Modbus</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/通信-总线-CAN</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/通信-总线-GPIO</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/通信-总线-I2C</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/通信-总线-RS485</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/通信-总线-SPI</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/通信-总线-UART</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/通信-总线-USB</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/通信-无线-GNSS</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/通信-无线-LoRa</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/通信-无线-WiFi</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://younglet.github.io/driver-kit/通信-无线-蓝牙BLE</loc>
-    <lastmod>2026-07-23T13:55:57+08:00</lastmod>
+    <lastmod>2026-07-23T14:31:27+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
