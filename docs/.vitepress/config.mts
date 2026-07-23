@@ -272,6 +272,13 @@ const themeConfig_zh = {
     { text: '电源', link: '/电源' },
     { text: '时钟', link: '/时钟' },
     { text: '规范', link: '/编写规范' },
+    {
+      text: '🌐 中文',
+      items: [
+        { text: '🇨🇳 简体中文', link: '/' },
+        { text: '🇺🇸 English', link: '/en/' },
+      ],
+    },
   ],
 
   sidebar: sidebar_zh,
@@ -318,6 +325,13 @@ const themeConfig_en = {
     { text: 'Power', link: '/电源' },
     { text: 'Clock', link: '/时钟' },
     { text: 'Guide', link: '/编写规范' },
+    {
+      text: '🌐 English',
+      items: [
+        { text: '🇨🇳 简体中文', link: '/' },
+        { text: '🇺🇸 English', link: '/en/' },
+      ],
+    },
   ],
 
   sidebar: sidebar_en,
@@ -421,9 +435,13 @@ export default defineConfig({
   //    各 locale 可在 locales.<key>.themeConfig 里覆盖特定字段。
   themeConfig: themeConfig_zh,
 
-  // ─── locales: zh-CN 默认（/），en 挂在 /en/ ──────────────────
+  // ─── locales: 默认 locale 使用 'root' key（VitePress 约定） ────
+  //    'root' 表示内容放在 /，不需 path 字段。
+  //    其余 locale 必须有 path 字段，URL 前缀 = path。
+  //    getLocaleForPath() 会跳过 'root'，未匹配任何 path 的页面
+  //    默认归到 'root'，这就是为什么用 'root' 作为默认 locale key。
   locales: {
-    'zh-CN': {
+    root: {
       label: '简体中文',
       lang: 'zh-CN',
       title: 'DriverKit · 驱动派',
@@ -512,6 +530,12 @@ export default defineConfig({
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
     ['link', { rel: 'apple-touch-icon', href: '/favicon.svg' }],
+    // ─── 自定义 CSS：隐藏默认的 globe icon 按钮（避免与 nav 中的语言切换项重复）
+    [
+      'style',
+      {},
+      `.VPNavBarTranslations { display: none !important; }`,
+    ],
   ],
 
   // ─── transformHead: 每页动态注入 description / OG / canonical / JSON-LD ──
