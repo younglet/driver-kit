@@ -117,18 +117,7 @@ const MODULE_EN_MAP: Record<string, string> = {
   'SD 卡 ': 'SD Card',
 }
 
-const ZH_OVERVIEW = {
-  分类总览: 'Category Overview',
-  编写规范: 'Authoring Guide',
-  传感器: 'Sensors',
-  执行器: 'Actuators',
-  通信: 'Communication',
-  显示: 'Display',
-  输入: 'Input',
-  存储: 'Storage',
-  电源: 'Power',
-  时钟: 'Clock',
-}
+
 
 // ════════════════════════════════════════════════════════════════════
 //   模块侧边栏（中英两套，文件名相同，只翻译显示文本）
@@ -208,11 +197,12 @@ const POWER = [
 
 const CLOCK = [{ text: 'RTC 实时时钟', link: '/时钟-实时时钟-RTC' }]
 
-// ─── 把中文 sidebar 翻译为英文 sidebar（text 用查表，link 不变） ─
+// ─── 把中文 sidebar 翻译为英文 sidebar ─────────────────────
+// text 查表翻译，link 加 /en/ 前缀（让英文页面的侧边栏跳转也留在英文）
 function translate(items: { text: string; link: string }[]) {
   return items.map((it) => ({
     text: MODULE_EN_MAP[it.text] ?? it.text,
-    link: it.link,
+    link: '/en' + it.link,
   }))
 }
 
@@ -242,15 +232,15 @@ const sidebar_zh = [
 
 // ─── 英文 sidebar（locale.en 用） ────────────────────────────────
 const sidebar_en = [
-  { text: 'Category Overview', link: '/分类总览' },
-  { text: 'Sensors', link: '/传感器', collapsed: false, items: SENSOR_EN },
-  { text: 'Actuators', link: '/执行器', collapsed: false, items: ACTUATOR_EN },
-  { text: 'Communication', link: '/通信', collapsed: false, items: COMMUNICATION_EN },
-  { text: 'Display', link: '/显示', collapsed: false, items: DISPLAY_EN },
-  { text: 'Input', link: '/输入', collapsed: false, items: INPUT_EN },
-  { text: 'Storage', link: '/存储', collapsed: false, items: STORAGE_EN },
-  { text: 'Power', link: '/电源', collapsed: false, items: POWER_EN },
-  { text: 'Clock', link: '/时钟', collapsed: false, items: CLOCK_EN },
+  { text: 'Category Overview', link: '/en/分类总览' },
+  { text: 'Sensors', link: '/en/传感器', collapsed: false, items: SENSOR_EN },
+  { text: 'Actuators', link: '/en/执行器', collapsed: false, items: ACTUATOR_EN },
+  { text: 'Communication', link: '/en/通信', collapsed: false, items: COMMUNICATION_EN },
+  { text: 'Display', link: '/en/显示', collapsed: false, items: DISPLAY_EN },
+  { text: 'Input', link: '/en/输入', collapsed: false, items: INPUT_EN },
+  { text: 'Storage', link: '/en/存储', collapsed: false, items: STORAGE_EN },
+  { text: 'Power', link: '/en/电源', collapsed: false, items: POWER_EN },
+  { text: 'Clock', link: '/en/时钟', collapsed: false, items: CLOCK_EN },
 ]
 
 // ════════════════════════════════════════════════════════════════════
@@ -271,7 +261,6 @@ const themeConfig_zh = {
     { text: '存储', link: '/存储' },
     { text: '电源', link: '/电源' },
     { text: '时钟', link: '/时钟' },
-    { text: '规范', link: '/编写规范' },
     {
       text: '🌐 中文',
       items: [
@@ -300,7 +289,7 @@ const themeConfig_zh = {
 
   footer: {
     message: 'DriverKit · 驱动派 · 共 53 个硬件模块文档',
-    copyright: `MIT License · <a href="/编写规范" target="_blank">编写规范</a>`,
+    copyright: `MIT License · <a href="https://github.com/younglet/driver-kit" target="_blank">GitHub</a>`,
   },
 
   editLink: {
@@ -314,17 +303,17 @@ const themeConfig_en = {
 
   // ─── Top Navigation ───────────────────────────────────────────
   nav: [
-    { text: 'Home', link: '/' },
-    { text: 'Overview', link: '/分类总览' },
-    { text: 'Sensors', link: '/传感器' },
-    { text: 'Actuators', link: '/执行器' },
-    { text: 'Communication', link: '/通信' },
-    { text: 'Display', link: '/显示' },
-    { text: 'Input', link: '/输入' },
-    { text: 'Storage', link: '/存储' },
-    { text: 'Power', link: '/电源' },
-    { text: 'Clock', link: '/时钟' },
-    { text: 'Guide', link: '/编写规范' },
+    { text: 'Home', link: '/en/' },
+    { text: 'Overview', link: '/en/分类总览' },
+    { text: 'Sensors', link: '/en/传感器' },
+    { text: 'Actuators', link: '/en/执行器' },
+    { text: 'Communication', link: '/en/通信' },
+    { text: 'Display', link: '/en/显示' },
+    { text: 'Input', link: '/en/输入' },
+    { text: 'Storage', link: '/en/存储' },
+    { text: 'Power', link: '/en/电源' },
+    { text: 'Clock', link: '/en/时钟' },
+    // 不再暴露“Guide”（“规范”仅供贡献者，不给终端用户看）
     {
       text: '🌐 English',
       items: [
@@ -353,7 +342,7 @@ const themeConfig_en = {
 
   footer: {
     message: 'DriverKit · Driver-Pie · 53 hardware modules documented',
-    copyright: `MIT License · <a href="/编写规范" target="_blank">Authoring Guide</a>`,
+    copyright: `MIT License · <a href="https://github.com/younglet/driver-kit" target="_blank">GitHub</a>`,
   },
 
   editLink: {
@@ -475,10 +464,6 @@ export default defineConfig({
         fm.description = isEn
           ? 'DriverKit — full index of all 53 modules organized by category: 17 Sensors, 11 Actuators, 12 Communication, 3 Display, 3 Input, 3 Storage, 3 Power, 1 Clock.'
           : 'DriverKit 全部 53 个模块文档按分类索引：传感器 17 个、执行器 11 个、通信 12 个、显示 3 个、输入 3 个、存储 3 个、电源 3 个、时钟 1 个。'
-      } else if (rel === '编写规范') {
-        fm.description = isEn
-          ? 'Authoring guide for DriverKit module docs — the standard 17-section structure covering selection, wiring, drivers, debugging and FAQ.'
-          : 'DriverKit 模块文档的 17 节标准结构与撰写规范：选型、接线、驱动、调试、FAQ 一站式。'
       } else if (/^.+-.+-.+$/.test(rel)) {
         // 模块页：分类-领域-模块
         const parts = rel.split('-')
@@ -568,7 +553,7 @@ export default defineConfig({
 
     // ─── 页面类型判断 ──────────────────────────────────────────
     const isModule = /.+-.+-.+/.test(rel)
-    const isCategoryOverview = rel === '分类总览' || rel === '编写规范'
+    const isCategoryOverview = rel === '分类总览'
     const isCatPage = CAT_ZH.includes(rel)
 
     // ─── JSON-LD: 站点级（按 locale 区分） ────────────────────

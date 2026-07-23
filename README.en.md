@@ -58,7 +58,6 @@ npm run docs:preview # Preview the built site locally
     ├── .vitepress/
     │   └── config.mts                  # VitePress config (locales, nav, sidebar, SEO, i18n map)
     ├── 分类总览.md                       # Full index page (Chinese)
-    ├── 编写规范.md                       # Authoring guide (Chinese)
     ├── 传感器.md / 执行器.md / ...        # 8 category overview pages (Chinese)
     ├── 传感器-位姿-三轴陀螺仪.md        # Module documentation (53 files, Chinese)
     ├── ...
