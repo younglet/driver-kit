@@ -415,6 +415,12 @@ export default defineConfig({
   appearance: 'dark',
   base: SITE_BASE,
 
+  // ─── 顶层 themeConfig：默认 locale (zh-CN) 的 UI 配置。
+  //    VitePress 在序列化 siteData 时只会读顶层 themeConfig，
+  //    所以这里必须提供一份完整的默认配置。
+  //    各 locale 可在 locales.<key>.themeConfig 里覆盖特定字段。
+  themeConfig: themeConfig_zh,
+
   // ─── locales: zh-CN 默认（/），en 挂在 /en/ ──────────────────
   locales: {
     'zh-CN': {
